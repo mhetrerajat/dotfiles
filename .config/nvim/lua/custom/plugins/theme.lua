@@ -1,8 +1,12 @@
--- lua/plugins/rose-pine.lua
+--[[ -- lua/plugins/rose-pine.lua
 return {
 	"rose-pine/neovim",
 	name = "rose-pine",
 	config = function()
 		vim.cmd("colorscheme rose-pine")
 	end,
-}
+} --]]
+
+vim.cmd 'colorscheme default'
+
+return {}
